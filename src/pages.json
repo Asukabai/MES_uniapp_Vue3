@@ -18,7 +18,7 @@
       }
     },
     {
-      "path": "pages/my/index",
+      "path": "pages/my/user",
       "style": {
         "navigationBarTitleText": "我的",
         "navigationStyle": "custom",
@@ -40,6 +40,11 @@
       }
     }
   ],
+  "h5": {
+    "router": {
+      "mode": "history"
+    }
+  },
   "tabBar": {
     "selectedColor": "#AF7000",
     "color": "#333",
@@ -59,7 +64,7 @@
         "selectedIconPath": "static/icons/share-active.png"
       },
       {
-        "pagePath": "pages/my/index",
+        "pagePath": "pages/my/user",
         "text": "我的",
         "iconPath": "static/icons/user-inactive.png",
         "selectedIconPath": "static/icons/user-active.png"

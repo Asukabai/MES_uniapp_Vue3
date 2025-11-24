@@ -15,7 +15,7 @@ export default defineConfig(async ({ mode, command }) => {
     server: {
       host: true,
       open: true,
-      port: 10002,
+      port: 8080,
       proxy: {},
     },
     css: {
@@ -25,5 +25,6 @@ export default defineConfig(async ({ mode, command }) => {
         },
       },
     },
+    base: '/sensor/ddingWork/' // 添加这个配置
   };
 });

@@ -61,7 +61,9 @@
     "js-jwt": "^0.2.7",
     "lodash": "4.17.21",
     "qs": "5.0.0",
+    "uni-simple-router": "^2.0.8-beta.4",
     "vue": "^3.4.21",
+    "vue-router": "^4.6.3",
     "wot-design-uni": "^1.13.0"
   },
   "devDependencies": {

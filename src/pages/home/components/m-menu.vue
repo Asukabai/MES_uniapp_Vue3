@@ -94,7 +94,7 @@ function onClick(item) {
 }
 
 .menu-item {
-  width: calc(100% / 7);
+  width: calc(100% / 6);
 
   .icon-wrapper {
     //border: 1px dashed black;

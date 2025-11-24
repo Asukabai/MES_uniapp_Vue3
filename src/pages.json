@@ -1,48 +1,69 @@
 {
   "pages": [
     {
-      "path": "pages/home/index",
+      "path": "pages/home/home_index",
+      "aliasPath": "/home",
       "style": {
         "navigationBarTitleText": "首页",
         "navigationStyle": "custom",
         "navigationBarBackgroundColor": "#ffffff",
-        "navigationBarTextStyle": "white"
+        "navigationBarTextStyle": "white",
+        "h5": {
+          "title": "首页"
+        }
       }
     },
     {
       "path": "pages/activity/index",
+      "aliasPath": "/activity",
       "style": {
         "navigationBarTitleText": "活动推荐",
         "navigationStyle": "custom",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "h5": {
+          "title": "活动推荐"
+        }
       }
     },
     {
       "path": "pages/my/user",
+      "aliasPath": "/my",
       "style": {
         "navigationBarTitleText": "我的",
         "navigationStyle": "custom",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "h5": {
+          "title": "我的"
+        }
       }
     },
     {
       "path": "pages/login/index",
+      "aliasPath": "/login",
       "style": {
         "navigationBarTitleText": "登录",
         "navigationStyle": "custom",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "h5": {
+          "title": "登录"
+        }
       }
     },
     {
       "path": "pages/error/index",
+      "aliasPath": "/error",
       "style": {
-        "navigationBarTitleText": ""
+        "navigationBarTitleText": "",
+        "h5": {
+          "title": "错误页面"
+        }
       }
     }
   ],
   "h5": {
     "router": {
-      "mode": "history"
+      "mode": "history",
+      "base": "./"
     }
   },
   "tabBar": {
@@ -52,7 +73,7 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/home/index",
+        "pagePath": "pages/home/home_index",
         "text": "首页",
         "iconPath": "static/icons/home-inactive.png",
         "selectedIconPath": "static/icons/home-active.png"
@@ -75,7 +96,10 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "",
     "navigationBarBackgroundColor": "#FFFFFF",
-    "backgroundColor": "#FFFFFF"
+    "backgroundColor": "#FFFFFF",
+    "h5": {
+      "title": "我的应用"
+    }
   },
   "uniIdRouter": {},
   "easycom": {
